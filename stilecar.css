@@ -1,0 +1,42 @@
+/* Adicione os estilos necessários para o carrinho de compras e a barra de navegação */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info span {
+    margin-right: 10px;
+}
+
+.btn-logout, .btn-cart {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.cart-section {
+    padding: 20px;
+}
+
+#cart-items div {
+    margin-bottom: 10px;
+}

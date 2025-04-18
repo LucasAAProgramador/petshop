@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS petshop;
+
+
+USE petshop;
+
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL,
+    senha VARCHAR(255) NOT NULL,
+    nome VARCHAR(255) NOT NULL,
+    sobrenome VARCHAR(255) NOT NULL,
+    rg VARCHAR(20) NOT NULL,
+    cpf VARCHAR(20) NOT NULL,
+    endereco VARCHAR(255) NOT NULL,
+    data_nascimento DATE NOT NULL
+);
+SELECT * FROM usuarios;
